@@ -4,7 +4,7 @@ import { Contribution } from './pages/contribution/index';
 import { Home } from './pages/home/index';
 
 
-export default function App() {
+export function App() {
   return (
       <>
        <Home/>
