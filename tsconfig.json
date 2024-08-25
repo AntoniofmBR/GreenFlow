@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "ES2020",
-    "strict": true,
     "jsx": "react",
+    "module": "commonjs",
+    "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    }
   },
   "include": ["src"]
 }
