@@ -17,6 +17,11 @@ module.exports = {
         card_background: '#EDF2F4',
       },
     },
+    screens: {
+      sm: '320px',
+      md: '1025px',
+      lg: '1200px',
+    }
   },
   plugins: [],
 }

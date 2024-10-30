@@ -10,11 +10,11 @@ import Market from '../../assets/cards_image/market.png'
 
 export function Contribution() {
   return (
-    <div className='h-screen p-7 flex flex-col items-center'>
+    <div className='min-h-screen p-7 flex flex-col items-center'>
       <h1 className='text-center text-black font-bold text-4xl mt-10' >
         Com a GreenFlow você contribui com:
       </h1>
-      <div className='mt-32 grid grid-cols-3 gap-12 w-full' >
+      <div className='mt-32 grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 sm:mb-20 gap-12 w-full' >
         <Card
           src={Leaf}
           text={'A conservação de recursos naturais'}

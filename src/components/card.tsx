@@ -8,15 +8,15 @@ type CardProps = {
 export function Card({ src, text }: CardProps) {
   return (
     <div 
-     className='flex items-center bg-card_background rounded-lg border-2 border-black p-7 w-96 gap-5 hover:scale-105'
+     className='lg:w-96 md:w-80 sm:w-70 flex items-center bg-card_background rounded-lg border-2 border-black p-7 gap-5 hover:scale-105 transition duration-300 ease-in-out'
     >
       <img
         src={src}
         alt="Image Card"
-        className='h-20 w-20'
+        className='lg:h-20 md:h-20 sm:h-16 w-20'
       />
       <p
-       className='text-black font-semibold text-xl text-center'
+       className='text-black font-semibold lg:text-xl md:text-xl sm:text-sm text-center'
        >
         {text}
       </p>

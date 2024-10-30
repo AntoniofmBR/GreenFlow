@@ -6,10 +6,10 @@ import { Home } from './pages/home/index';
 
 export function App() {
   return (
-      <>
+      <div>
        <Home/>
        <Contribution />
        <About />
-      </>
+      </div>
   )
 }
