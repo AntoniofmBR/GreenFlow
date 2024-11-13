@@ -14,7 +14,7 @@ export function Contribution() {
       <h1 className='text-center text-black font-bold text-4xl mt-10' >
         Com a GreenFlow você contribui com:
       </h1>
-      <div className='mt-32 grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 sm:mb-20 gap-12 w-full' >
+      <div className='lg:mt-32 md:mt-32 sm:mt-12 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 sm:mb-20 gap-12 w-full' >
         <Card
           src={Leaf}
           text={'A conservação de recursos naturais'}

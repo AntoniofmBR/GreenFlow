@@ -10,11 +10,19 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
       },
       colors: {
-        background: '#F8F9FA',
-        button_background: '#262626',
-        button_hover_background: '#141414',
-        title_homepage: '#2C6E49',
-        card_background: '#EDF2F4',
+        whites: {
+          white_200: '#F8F9FA',
+          white_300: '#EDF2F4',
+          white_400: '#FFFFFF',
+        },
+        greens: {
+          green_200: '#2C6E49',
+        },
+        blacks: {
+          black_200: '#262626',
+          black_300: '#141414',
+          black_300: '#000000',
+        },
       },
     },
     screens: {
